@@ -27,5 +27,6 @@ DLL (Get/SetInvinc) -> Unity2D -> Player
 The solution that we implemented for the Design Pattern component of this project is a AudioManager Singleton that manages the SFX that can be called in the game world. It ensures that SFX played is done through an AudioSource, otherwise returns null and a debug.log is thrown. This can be used to play sounds from any script or class, in this case, the Invincibility Plugin. In our project, the PlaySFX() function from the AudioManager is called to play an SFX whenever the player is given or removed the ability to move through colliders. 
 
 **Diagram:**
+
 ![image](https://github.com/user-attachments/assets/71c7a821-06c6-4a51-82fe-ba618f1e8ba5)
 
